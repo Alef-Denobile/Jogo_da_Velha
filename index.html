@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo_da_velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Jogo da velha</h1>
+    </div>
+    <div class="game">
+        <div class="turn-container">
+            <h3>Agora é a vez do:</h3>
+            <div class="turn-box align">X</div>
+            <div class="turn-box align">O</div>
+            <div class="bg"></div>
+        </div>
+        <div class="main-grid">
+            <div class="box align">0</div>
+            <div class="box align">1</div>
+            <div class="box align">2</div>
+            <div class="box align">3</div>
+            <div class="box align">4</div>
+            <div class="box align">5</div>
+            <div class="box align">6</div>
+            <div class="box align">7</div>
+            <div class="box align">8</div>
+        </div>
+        <h2>pontos:</h2>
+        <div id="score">
+            <table>
+                <tr>
+                    <th>X: <span id="scoreX">0</span></th>
+                    <th>O: <span id="scoreO">0</span></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="result-screen" id="result-screen">
+        <h2 id="results" class="results"></h2>
+        <button id="play-again">Jogue novamente!</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
